@@ -1,0 +1,147 @@
+body {
+  overflow-x: hidden; 
+}
+
+
+.background {
+    height: 400vh;
+    width: 100vw; 
+    background-color: #e0e0e0;
+    background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+
+  .cryparion {
+    font-size: 120px ;
+    position:sticky;
+    top:250px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 235;
+    font-style: normal;
+  }
+
+  .intro1{
+    font-size: 30px;
+    position:fixed;
+    top:395px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 235;
+    font-style: normal;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .typewriter1 {
+    display: inline-block; 
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  
+  .line {
+    display: inline-block;
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: typing 0.5s steps(30, end) forwards;
+    opacity: 0; 
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+      opacity: 1;
+    }
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+
+  .intro2{
+    font-size: 30px;
+    position:sticky;
+    top:395px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 235;
+    font-style: normal;
+    overflow: hidden; 
+    white-space: nowrap; 
+  }
+
+  .typewriter2 {
+    display: inline-block;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  
+  .line {
+    display: inline-block;
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: typing 0.5s steps(30, end) forwards;
+    opacity: 0; 
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+      opacity: 1;
+    }
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+  .logo{
+    position: sticky;
+    top:350px;
+    border-radius: 50%;
+    height: 380px;
+    width: auto;
+    z-index: 2;
+  }
+
+  .myPhoto{
+    position: sticky;
+    top: 300px;
+    border-radius: 50%;
+    height: 380px;
+    width: auto;
+  }
+
+  .connect{
+    position: sticky;
+    top: 100px;
+    font-size: 30px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 235;
+    font-style: normal;
+  }
+
+  .react{
+    height: 70px;
+    width: auto;
+  }
+
+  .reactdm{
+    height: 120px;
+    width: auto;
+  }
+
+  .linkedin, .instagram, .github{
+    position: sticky;
+    top:800px;
+    height: 80px;
+    width: auto;
+  }

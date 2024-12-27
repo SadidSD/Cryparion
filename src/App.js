@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Home from './pages/Home';
+import Navbar from './Components/Navbar';
+import React, { useEffect, useState} from "react";
+import { motion } from 'framer-motion';
+
+
 
 function App() {
+const [startAnimation, setStartAnimation] = useState(false);
+ useEffect(() => {
+    document.body.style.overflowY = startAnimation ? "auto" : "hidden";
+    return () => {
+      document.body.style.overflowY = "auto"; 
+    };
+  }, [startAnimation]);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className='appback'> 
+      <motion.div
+        className="starttxt"
+        animate={{ opacity: 0 }}
+        transition={{ delay: 2, duration: 1 }}
+        onAnimationComplete={() => setStartAnimation(true)}
+        
+      >
+        <p className="fitsttxt">
+          PS C:\Users\Sadid\Desktop\Cryparion\portfolio&gt;
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p className="lasttxt">npm start |</p>
+      </motion.div>
+      {startAnimation && (
+  <>
+    <Navbar  />
+    <Home  />
+  </>
+)}
+     
+
     </div>
   );
 }
