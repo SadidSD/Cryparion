@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.9c1282d7.css",
-    "main.js": "/my-react-app/static/js/main.c30f3464.js",
-    "static/js/453.ac1a8a21.chunk.js": "/my-react-app/static/js/453.ac1a8a21.chunk.js",
-    "static/media/myphoto.jpg": "/my-react-app/static/media/myphoto.f6fc2b0e14946e3e0db5.jpg",
-    "static/media/cryparion.png": "/my-react-app/static/media/cryparion.fe8aaf33c169295de1a7.png",
-    "static/media/React-Logo.png": "/my-react-app/static/media/React-Logo.e648a71158884495e955.png",
-    "static/media/framer motion.png": "/my-react-app/static/media/framer motion.374c48e749ddde5ccf42.png",
-    "static/media/instagram.png": "/my-react-app/static/media/instagram.ac32ec0a111aeba03298.png",
-    "static/media/github.png": "/my-react-app/static/media/github.f11021803f68852df283.png",
-    "static/media/linkedin.png": "/my-react-app/static/media/linkedin.032cf8a63be2f0f4d425.png",
-    "static/media/css-3.png": "/my-react-app/static/media/css-3.463e319bad8e0edf1ef7.png",
-    "static/media/js.png": "/my-react-app/static/media/js.3dfb665e058d08c99f28.png",
-    "index.html": "/my-react-app/index.html",
-    "main.9c1282d7.css.map": "/my-react-app/static/css/main.9c1282d7.css.map",
-    "main.c30f3464.js.map": "/my-react-app/static/js/main.c30f3464.js.map",
-    "453.ac1a8a21.chunk.js.map": "/my-react-app/static/js/453.ac1a8a21.chunk.js.map"
+    "main.css": "/Cryparion/static/css/main.9c1282d7.css",
+    "main.js": "/Cryparion/static/js/main.b149c2dd.js",
+    "static/js/453.ac1a8a21.chunk.js": "/Cryparion/static/js/453.ac1a8a21.chunk.js",
+    "static/media/myphoto.jpg": "/Cryparion/static/media/myphoto.f6fc2b0e14946e3e0db5.jpg",
+    "static/media/cryparion.png": "/Cryparion/static/media/cryparion.fe8aaf33c169295de1a7.png",
+    "static/media/React-Logo.png": "/Cryparion/static/media/React-Logo.e648a71158884495e955.png",
+    "static/media/framer motion.png": "/Cryparion/static/media/framer motion.374c48e749ddde5ccf42.png",
+    "static/media/instagram.png": "/Cryparion/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/github.png": "/Cryparion/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/Cryparion/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/css-3.png": "/Cryparion/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/Cryparion/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Cryparion/index.html",
+    "main.9c1282d7.css.map": "/Cryparion/static/css/main.9c1282d7.css.map",
+    "main.b149c2dd.js.map": "/Cryparion/static/js/main.b149c2dd.js.map",
+    "453.ac1a8a21.chunk.js.map": "/Cryparion/static/js/453.ac1a8a21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1282d7.css",
-    "static/js/main.c30f3464.js"
+    "static/js/main.b149c2dd.js"
   ]
 }
